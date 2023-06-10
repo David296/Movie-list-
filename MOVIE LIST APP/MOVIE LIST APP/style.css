@@ -1,0 +1,327 @@
+.favouritesbuton {
+    background-color:rgb(80, 80, 80) ;    
+    color:white;
+    position: relative;
+    left: 20px;
+}
+
+
+
+
+.favouritesbuton:active {
+  background-color: rgb(80, 80, 80) ;
+  transform: scale(0.95);
+}
+
+ 
+.sortBy
+{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+
+
+/*  main page pics  */
+.poster
+{
+ height: 300px;
+ width:210px;
+align-content:space-evenly;
+
+
+}
+
+
+.mybody {
+
+    background-color: #363638 ;    
+    overflow-x: hidden;
+}
+
+#mybody2 {
+
+    background-color:#363638 ;               
+   overflow-x: hidden;
+   overflow-y: hidden
+   
+}
+
+
+
+/*  ABOUT_MOVIE_PAGE     */
+.story
+{
+    padding-top: 15px;
+    height: 120px;
+    text-align: justify;
+}
+
+/* main page boxes order */
+#MOVIESDIV
+{
+   
+   display: grid;
+   grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+   grid-gap: 10px;
+   justify-content:baseline;
+   
+}
+
+.grid2
+{
+    width: 500px;
+    margin: auto;
+
+}
+
+
+
+
+.lis {
+                     
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 65px;   
+    margin: 0.6rem;                      
+    background: #141214;        
+    border-radius: 3px;
+   color: antiquewhite; 
+
+}
+
+/*   Black upper header of the page              */
+
+
+.heading {
+   
+    background: #141214;
+    max-width: 100%;
+    height: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+   
+}
+
+    /* search bar text    */
+::placeholder { 
+    color: white;
+    opacity: 0.8; 
+
+  }
+
+  /* search bar-main page     */
+.inputform 
+{
+    
+    height:40px;
+    font-size: 20px;
+    width:400px;
+    border:none;
+    outline:none;
+    background: transparent;
+    border-bottom: 0.5px solid white;
+    color:white;
+    text-align: center;
+    margin-bottom: 80px;
+     text-shadow:0 0 4px black
+     
+   
+}
+
+.mainfav
+{
+    font-size: 22px;
+    position: relative;
+    bottom: 60px;          
+    left: 1330px; 
+
+}
+
+/*  about movie-info styles        */
+
+.abmov1
+{
+    color: #a0a0a0;
+    line-height: 1.8em;
+    position:relative;
+    top: 10px;
+}
+
+.abmov
+{
+    color: #a0a0a0;
+    line-height: 1.8em;
+    position: relative;
+    top: 15px;
+}
+
+.abmov2
+{
+    color: #a0a0a0;
+    line-height: 1.8em;
+    position: relative;
+    left: 600px;     
+    bottom: 265px;
+}
+
+
+h6{
+    color: white;
+    font-weight: 700 ;
+    
+}
+
+
+.heading2
+{
+    background: #141214;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    max-width: 100%;
+    height: 100px;
+    
+}
+
+.titleindx
+{
+    position: relative;
+    left: 9.5px;
+    top: 15px;
+}
+
+.titlefav
+{
+    position: relative;
+    bottom: 10px;
+}
+.titleabt
+{
+    position: relative;
+    top: 15px;
+}
+
+.movieinfo1
+{
+    position: relative;
+   background-color:  #201f28;                                    
+    margin-left: 480px;
+    bottom: 650px;
+    text-align: left;
+    width: 1000px;
+    height: 590px;
+    
+    color: aliceblue;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+   padding-bottom: 1px;
+    border-radius: 3px;
+    
+}
+
+.lis2 
+{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 65px;   
+    margin: 0.6rem;                       
+    border-radius: 3px;
+    height: 600px;
+}
+
+
+.poster2
+{
+ height: 596px;    
+ width:410px;       
+align-content:space-evenly;
+position: relative;
+bottom: 60px;
+left: 30px;
+
+}
+
+
+.abtmain
+{
+    position: relative;
+    bottom:35px;
+    left: 100px;
+   width: 100px;
+   
+}
+
+.abtfav
+{
+    position: relative;
+    bottom: 65px;
+   left: 1300px;
+   width: 100px;
+  
+}
+
+.favmain
+{
+    position: relative;
+    left: 70px;
+    bottom: 60px;
+
+}
+
+
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+
+
+/* FAVOURITE MOVIES PAGE  */
+
+.lis3 {
+
+   
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 65px;   
+    margin: 0.6rem;                      
+    background: #141214;         
+    border-radius: 3px;
+    color: antiquewhite;
+    width: 500px;
+    height: 210px;
+    margin: 0.6em auto;
+    }
+    
+    .favposter
+    {
+     height: 200px;
+     width:150px;
+    align-content:space-evenly;
+    position: relative;
+    
+    
+    }
+    
+    .favtext
+    {
+        position: relative;
+        left: 170px;
+        bottom: 150px;
+    }
+
+    .favdelbutton
+    {
+        position: relative;
+        left: 390px;
+        bottom: 170px;
+    }
